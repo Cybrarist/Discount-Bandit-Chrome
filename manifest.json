@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "1.0",
+  "version": "2.0",
   "name": "Discount Bandit",
 
 
@@ -45,13 +45,56 @@
         "https://*.amazon.nl/*" ,
         "https://*.amazon.sg/*" ,
         "https://*.amazon.se/*" ,
-        "https://*.amazon.com.be/*"
+        "https://*.amazon.com.be/*",
+        "https://*.argos.co.uk/product/*",
+        "https://*.ebay.com/itm/*",
+        "https://*.noon.com/*/p/*"
       ],
-      "js" : [ "resources/apexcharts.js" , "amazon.js"],
+      "js" : [ "resources/apexcharts.js" ,"Product.js",
+
+        "Stores/Amazon.js",
+        "Stores/Argos.js",
+        "Stores/Ebay.js",
+        "Stores/Noon.js",
+
+
+        "functions.js" , "stores.js"],
       "css": ["resources/css/style.css"]
     }
   ],
 
+
+  "web_accessible_resources": [
+    {
+      "resources": [ "resources/images/stores/*", "resources/images/bandit.png" ],
+      "matches": [  "https://*.amazon.ae/*" ,
+        "https://*.amazon.com/*" ,
+        "https://*.amazon.ca/*" ,
+        "https://*.amazon.co.uk/*" ,
+        "https://*.amazon.de/*" ,
+        "https://*.amazon.fr/*" ,
+        "https://*.amazon.it/*" ,
+        "https://*.amazon.sa/*" ,
+        "https://*.amazon.es/*" ,
+        "https://*.amazon.pl/*" ,
+        "https://*.amazon.com.tr/*" ,
+        "https://*.amazon.com.au/*" ,
+        "https://*.amazon.com.br/*" ,
+        "https://*.amazon.cn/*" ,
+        "https://*.amazon.eg/*" ,
+        "https://*.amazon.co.jp/*" ,
+        "https://*.amazon.in/*" ,
+        "https://*.amazon.com.mx/*" ,
+        "https://*.amazon.nl/*" ,
+        "https://*.amazon.sg/*" ,
+        "https://*.amazon.se/*" ,
+        "https://*.amazon.com.be/*",
+        "https://*.argos.co.uk/*",
+        "https://*.ebay.com/*",
+        "https://*.noon.com/*"
+      ]
+    }
+  ],
 
 
   "icons": {
