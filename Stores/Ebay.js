@@ -31,22 +31,21 @@ if (window.location.href.includes('ebay.') ){
         async get_product_data() {
 
             super.get_product_data().then(data => {
-
-
-                console.log(data)
+                if (!data)
+                    return;
 
                 insert_chart_into_dom(data.series)
                 //add highest and lowest prices
                 document.querySelector('[data-testid="x-price-primary"]')
                     .insertAdjacentHTML("afterbegin" ,
-                    `<div class="lowest_price" > Lowest Price ${data.prices[data.current_store_id]?.lowest_price.toLocaleString()}</div>
-             <div class="max_price" "> Highest Price ${data.prices[data.current_store_id]?.highest_price.toLocaleString()}</div>`
-                )
+                        `<div class="lowest_price" > Lowest Price ${data.prices[data.current_store_id]?.lowest_price.toLocaleString()}</div>
+             <div class="highest_price" "> Highest Price ${data.prices[data.current_store_id]?.highest_price.toLocaleString()}</div>`
+                    )
 
                 //add open in Discount Bandit
                 document.querySelector("[data-testid='x-buybox-cta']")
                     .insertAdjacentHTML("afterend" ,
-                    `<a class="discount_bandit_button"
+                        `<a class="discount_bandit_button"
                            style="margin-top: 3vh"
                          target="_blank"
                          href="${this.url}/products/${data.product_id}">
@@ -54,7 +53,7 @@ if (window.location.href.includes('ebay.') ){
                             style="max-width: 20px"
                          >
                          Discount Bandit</a>`
-                )
+                    )
                 //add other stores available.
                 var stores_elements=document.getElementById("all_stores_cards");
                 for (const [store, value] of Object.entries(data.prices))

@@ -1,6 +1,6 @@
 const stores={
     data: [
-         {
+        {
             id:1,
             name:'Amazon UAE',
             url:'https://www.amazon.ae/dp/product_id',
@@ -8,215 +8,215 @@ const stores={
             currency:'AED',
             color:'yellow',
         },
-         {
+        {
             id:2,
             name:'Amazon USA',
             url:'https://www.amazon.com/dp/product_id',
             image:'amazon.png',
             currency:'$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:3,
             name:'Amazon UK',
             url:'https://www.amazon.co.uk/dp/product_id',
             image:'amazon_co_uk.png',
             currency:'£',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:4,
             name:'Amazon Germany',
             url:'https://www.amazon.de/dp/product_id',
             image:'amazon_de.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:5,
             name:'Amazon France',
             url:'https://www.amazon.fr/dp/product_id',
             image:'amazon_fr.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:6,
             name:'Amazon Italy',
             url:'https://www.amazon.it/dp/product_id',
             image:'amazon_it.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:7,
             name:'Amazon Saudi Arabia',
             url:'https://www.amazon.sa/dp/product_id',
             image:'amazon_sa.png',
             currency:'SAR',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:8,
             name:'Amazon Spain',
             url:'https://www.amazon.es/dp/product_id',
             image:'amazon_es.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:9,
             name:'Amazon Poland',
             url:'https://www.amazon.pl/dp/product_id',
             image:'amazon_pl.png',
             currency:'zł',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:10,
             name:'Amazon Turkey',
             url:'https://www.amazon.com.tr/dp/product_id',
             image:'amazon_com_tr.png',
             currency:'TL',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:11,
             name:'Amazon Australia',
             url:'https://www.amazon.com.au/dp/product_id',
             image:'amazon_com_tr.png',
             currency:'$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:12,
             name:'Amazon Brazil',
             url:'https://www.amazon.com.br/dp/product_id',
             image:'amazon_com_br.png',
             currency:'R$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:13,
             name:'Amazon Canada',
             url:'https://www.amazon.ca/dp/product_id',
             image:'amazon_ca.png',
             currency:'$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:14,
             name:'Amazon China',
             url:'https://www.amazon.cn/dp/product_id',
             image:'amazon.png',
             currency:'¥',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:15,
             name:'Amazon Egypt',
             url:'https://www.amazon.eg/dp/product_id',
             image:'amazon_eg.png',
             currency:'EGP',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:16,
             name:'Amazon Japan',
             url:'https://www.amazon.co.jp/dp/product_id',
             image:'amazon_co_jp.png',
             currency:'¥',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:17,
             name:'Amazon India',
             url:'https://www.amazon.in/dp/product_id',
             image:'amazon_in.png',
             currency:'₹',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:18,
             name:'Amazon Mexicon',
             url:'https://www.amazon.com.mx/dp/product_id',
             image:'amazon_com_mx.png',
             currency:'$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:19,
             name:'Amazon Netherlands',
             url:'https://www.amazon.nl/dp/product_id',
             image:'amazon_nl.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:20,
             name:'Amazon Singapore',
             url:'https://www.amazon.sg/dp/product_id',
             image:'amazon_sg.png',
             currency:'S$',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:21,
             name:'Amazon Sweden',
             url:'https://www.amazon.se/dp/product_id',
             image:'amazon_se.png',
             currency:'kr',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:22,
             name:'Amazon Belgium',
             url:'https://www.amazon.com.be/dp/product_id',
             image:'amazon.png',
             currency:'€',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:23,
             name:'Argos UK',
             url:'https://argos.co.uk/product/product_id',
             image:'argos.png',
             currency:'£',
-             color:'red',
+            color:'red',
         },
-         {
+        {
             id:24,
             name:'DIY',
             url:'https://diy.com/departments/random/product_id_BQ.prd',
             image:'diy_com.svg',
             currency:'£',
-             color:'orange',
+            color:'orange',
         },
-         {
+        {
             id:25,
             name:'Ebay',
             url:'https://ebay.com/itm/product_id',
             image:'ebay.png',
             currency:'$',
-             color:'blue',
+            color:'blue',
         },
-         {
+        {
             id:26,
             name:'Fnac',
             url:'https://fnac.com/product_id',
             image:'fnac_com.png',
             currency:'£',
-             color:'yellow',
+            color:'yellow',
         },
-         {
+        {
             id:27,
             name:'Target',
             url:'',
             image:'',
             currency:'',
-             color:'',
+            color:'',
         },
-         {
+        {
             id:28,
             name:'Walmart USA',
             url:'https://walmart.com/ip/product_id',
@@ -224,7 +224,7 @@ const stores={
             currency:'$',
             color:'blue',
         },
-         {
+        {
             id:29,
             name:'Walmart Canada',
             url:'https://walmart.ca/ip/product_id',
@@ -232,7 +232,7 @@ const stores={
             currency:'$',
             color:'blue',
         },
-         {
+        {
             id:30,
             name:'Noon UAE',
             url:'https://noon.com/uae-en/product_id/p/',
@@ -240,7 +240,7 @@ const stores={
             currency:'AED',
             color:'yellow',
         },
-         {
+        {
             id:31,
             name:'Noon Egypt',
             url:'https://noon.com/egypt-en/product_id/p/',
@@ -248,7 +248,7 @@ const stores={
             currency:'EGP',
             color:'yellow',
         },
-         {
+        {
             id:32,
             name:'Noon Saudi',
             url:'https://noon.com/saudi-en/product_id/p/',
@@ -256,7 +256,7 @@ const stores={
             currency:'SAR',
             color:'yellow',
         },
-         {
+        {
             id:33,
             name:'Costco USA',
             url:'https://costco.com/.product.product_id.html',
@@ -264,7 +264,7 @@ const stores={
             currency:'$',
             color:'red',
         },
-         {
+        {
             id:34,
             name:'Costco Australia',
             url:'https://costco.com.au/p/product_id',
